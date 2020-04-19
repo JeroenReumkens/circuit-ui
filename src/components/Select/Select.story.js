@@ -16,15 +16,12 @@
 import React, { useState } from 'react';
 import { action } from '@storybook/addon-actions';
 import { boolean, text } from '@storybook/addon-knobs/react';
+import { FlagDe, FlagUs, FlagFr } from '@sumup/icons';
+
 import { uniqueId } from '../../util/id';
-
-import docs from './Select.docs.mdx';
-import Select from './Select';
 import Label from '../Label';
-
-import { ReactComponent as DE } from './flags/de.svg';
-import { ReactComponent as US } from './flags/us.svg';
-import { ReactComponent as FR } from './flags/fr.svg';
+import Select from './Select';
+import docs from './Select.docs.mdx';
 
 export default {
   title: 'Forms/Select',
@@ -49,10 +46,10 @@ const options = [
     value: 'FR'
   }
 ];
-const flagIconMap = { DE, US, FR };
+const flagIconMap = { DE: FlagDe, US: FlagUs, FR: FlagFr };
 
 // Selects always need labels for accessibility.
-const SelectWithLabelAndState = () => {
+const SelectWithLabelAndState = props => {
   const [value, setValue] = useState('US');
   const id = uniqueId();
   return (
@@ -69,6 +66,7 @@ const SelectWithLabelAndState = () => {
         disabled={boolean('Disabled', false)}
         invalid={boolean('Invalid', false)}
         validationHint={text('Validation hint', '')}
+        {...props}
       />
     </Label>
   );
