@@ -20,35 +20,20 @@ import LoadingButton from '.';
 
 // eslint-disable-next-line react/prop-types
 const LoadingButtonWithState = ({ exitAnimation, ...props }) => {
-  // get loading button status animation or set as default
-  const variation = exitAnimation || 'DEFAULT';
-
-  const [loading, setLoading] = useState({
-    DEFAULT: false,
-    SUCCESS: false,
-    ERROR: false
-  });
+  const [loading, setLoading] = useState(false);
 
   const handleClick = () => {
-    // trigger loading state
-    setLoading({
-      ...loading,
-      [variation]: true
-    });
-    // reset loading
+    setLoading(true);
     setTimeout(() => {
-      setLoading({
-        ...loading,
-        [variation]: false
-      });
+      setLoading(false);
     }, 1000);
   };
 
   return (
     <LoadingButton
       {...props}
-      isLoading={loading[variation]}
-      exitAnimation={exitAnimation && LoadingButton[exitAnimation]}
+      isLoading={loading}
+      exitAnimation={exitAnimation}
       onClick={handleClick}
     />
   );
