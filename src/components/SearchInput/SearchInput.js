@@ -14,11 +14,11 @@
  */
 
 import React from 'react';
+import { Search } from '@sumup/icons';
 
 import { childrenPropType } from '../../util/shared-prop-types';
 
 import Input from '../Input';
-import { ReactComponent as SearchIcon } from './search.svg';
 
 /**
  * SearchInput component for forms.
@@ -27,7 +27,7 @@ const SearchInput = ({ children, ...props }) => (
   <Input
     {...props}
     type="search"
-    renderPrefix={({ className }) => <SearchIcon {...{ className }} />}
+    renderPrefix={({ className }) => <Search {...{ className }} />}
   >
     {children}
   </Input>
