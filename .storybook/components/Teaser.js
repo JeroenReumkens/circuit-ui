@@ -17,8 +17,9 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { ThemeProvider } from 'emotion-theming';
+import { light } from '@sumup/design-tokens';
 
-import { theme as themes, Heading, Text, Card } from '../../src';
+import { Heading, Text, Card } from '../../src';
 
 const Wrapper = styled(Card)(
   ({ theme }) => css`
@@ -34,7 +35,7 @@ const Wrapper = styled(Card)(
 );
 
 const Teaser = ({ title, children, ...props }) => (
-  <ThemeProvider theme={themes.circuit}>
+  <ThemeProvider theme={light}>
     <Wrapper shadow={Card.DOUBLE}>
       <Heading as="h2" size={Heading.GIGA}>
         {title}

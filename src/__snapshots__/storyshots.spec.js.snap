@@ -20392,6 +20392,13 @@ exports[`Storyshots Layout/Grid/Col Col 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-0 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
 <div
   style="width: 100vw;"
 >
@@ -20497,6 +20504,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-8 {
+    margin-left: calc(-24px / 2);
+    margin-right: calc(-24px / 2);
+  }
+}
+
 .circuit-12 {
   box-sizing: border-box;
   float: left;
@@ -20535,6 +20549,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-12 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-12 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -20587,6 +20608,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-0 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-0 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -20755,6 +20783,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Skipping 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-6 {
+    margin-left: calc(-24px / 2);
+    margin-right: calc(-24px / 2);
+  }
+}
+
 .circuit-0 {
   box-sizing: border-box;
   float: left;
@@ -20793,6 +20828,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Skipping 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-0 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-0 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -20845,6 +20887,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Skipping 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-4 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-4 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -20910,6 +20959,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Skipping 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-8 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
 @media (max-width:479px) {
   .circuit-8 {
     left: 0%;
@@ -20963,6 +21019,13 @@ exports[`Storyshots Layout/Grid/Grid Responsive Skipping 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-10 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-10 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -21125,6 +21188,13 @@ exports[`Storyshots Layout/Grid/Grid Skipping Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-6 {
+    margin-left: calc(-24px / 2);
+    margin-right: calc(-24px / 2);
+  }
+}
+
 .circuit-0 {
   box-sizing: border-box;
   float: left;
@@ -21163,6 +21233,13 @@ exports[`Storyshots Layout/Grid/Grid Skipping Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-0 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-0 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -21221,6 +21298,13 @@ exports[`Storyshots Layout/Grid/Grid Skipping Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-4 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
 .circuit-4:nth-of-type(n) {
   background-color: #3388FF;
 }
@@ -21273,6 +21357,13 @@ exports[`Storyshots Layout/Grid/Grid Skipping Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-8 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
 .circuit-8:nth-of-type(n) {
   background-color: #3388FF;
 }
@@ -21319,6 +21410,13 @@ exports[`Storyshots Layout/Grid/Grid Skipping Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-10 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-10 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -21474,6 +21572,13 @@ exports[`Storyshots Layout/Grid/Grid Static Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-12 {
+    margin-left: calc(-24px / 2);
+    margin-right: calc(-24px / 2);
+  }
+}
+
 .circuit-0 {
   box-sizing: border-box;
   float: left;
@@ -21512,6 +21617,13 @@ exports[`Storyshots Layout/Grid/Grid Static Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-0 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-0 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -21570,6 +21682,13 @@ exports[`Storyshots Layout/Grid/Grid Static Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-14 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
 .circuit-14:nth-of-type(n) {
   background-color: #3388FF;
 }
@@ -21616,6 +21735,13 @@ exports[`Storyshots Layout/Grid/Grid Static Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-24 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-24 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -21674,6 +21800,13 @@ exports[`Storyshots Layout/Grid/Grid Static Columns 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-38 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
 .circuit-38:nth-of-type(n) {
   background-color: #3388FF;
 }
@@ -21720,6 +21853,13 @@ exports[`Storyshots Layout/Grid/Grid Static Columns 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-44 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-44 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
@@ -21932,6 +22072,13 @@ exports[`Storyshots Layout/Grid/Row Base 1`] = `
   }
 }
 
+@media (min-width:1280px) {
+  .circuit-6 {
+    margin-left: calc(-24px / 2);
+    margin-right: calc(-24px / 2);
+  }
+}
+
 .circuit-0 {
   box-sizing: border-box;
   float: left;
@@ -21970,6 +22117,13 @@ exports[`Storyshots Layout/Grid/Row Base 1`] = `
 }
 
 @media (min-width:960px) {
+  .circuit-0 {
+    padding-left: calc(24px / 2);
+    padding-right: calc(24px / 2);
+  }
+}
+
+@media (min-width:1280px) {
   .circuit-0 {
     padding-left: calc(24px / 2);
     padding-right: calc(24px / 2);
